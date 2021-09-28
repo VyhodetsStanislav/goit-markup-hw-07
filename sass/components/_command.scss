@@ -1,0 +1,77 @@
+.command {
+  padding: 94px 0px;
+  background: #f5f4fa;
+}
+.command__h2 {
+  color: var(--zag-h-ty);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.command__list {
+  width: 270px;
+  background: #ffffff;
+  text-align: center;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.command__list + .command__list {
+  margin-left: 30px;
+}
+.command__image {
+  margin-bottom: 30;
+}
+.command__list:nth-child(-n + 1) {
+  margin-left: 15px;
+}
+.command__list:nth-child(n + 4) {
+  margin-right: 15px;
+}
+
+.command__h3 {
+  color: var(--zag-h-ty);
+  /* +++++++++++++++++++++ */
+  /* $color-text: #212121; */
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+.command__p {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+}
+
+.command__icon {
+  display: inline-flex;
+  padding: 0;
+  margin: 0;
+}
+.command__icon:hover,
+.command__icon:focus {
+  color: var(--menu-aktiv);
+}
+.command__icons {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  fill: #afb1b8;
+}
+.command__icons:nth-child(4) {
+  margin-right: 0px;
+}
+
+.command__icons:hover,
+.command__icons:focus {
+  background-color: #2196f3;
+  border-radius: 50%;
+  fill: #ffffff;
+}

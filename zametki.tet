@@ -1,0 +1,43 @@
+
+Четвертый выбрать
+.networking-icon-li:nth-child(4) {
+  margin-right: 0px;
+}
+
+Наведение Выделение
+.footer-links:hover,
+.footer-links:focus {
+  color: var(--menu-aktiv);
+}
+
+Вставить svg вектор
+<svg  class="networking-icon-li">
+    <use href="././/images/symbol-defs.svg#icon-camera"></use>
+</svg>
+
+  border-bottom: 1px solid #ececec;
+  border: 1px solid #eeeeee;
+
+
+отступ по родствиникам
+  .activity-li + .activity-li {
+  margin-left: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+
+.clients-li:hover,
+.clients-li:focus,
+.clients-li:hover svg,
+.clients-li:focus svg {
+  fill: #2196f3;
+  border-color: #2196f3;
+}

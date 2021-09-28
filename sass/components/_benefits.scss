@@ -1,0 +1,51 @@
+/* наши преимущиства */
+.benefits {
+  padding: 94px 0px;
+}
+.benefits__h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  color: var(--zag-h-ty);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  width: 270px;
+}
+.benefits__li::before {
+  content: "";
+  display: block;
+  height: 120px;
+  background-color: #f5f4fa;
+  margin-bottom: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.benefits__li:nth-child(1)::before {
+  background-image: url(..//images/antenna.svg);
+}
+.benefits__li:nth-child(2)::before {
+  background-image: url(../images/clock.svg);
+}
+.benefits__li:nth-child(3)::before {
+  background-image: url(..//images/diagram.svg);
+}
+.benefits__li:nth-child(4)::before {
+  background-image: url(..//images/astronaut.svg);
+}
+.benefits__li + .benefits__li {
+  margin-left: 30px;
+}
+.benefits__li:nth-child(-n + 1) {
+  margin-left: 15px;
+}
+.benefits__li:nth-child(n + 4) {
+  margin-right: 15px;
+}
+.benefits__list {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  width: 270px;
+  margin-top: 0;
+}

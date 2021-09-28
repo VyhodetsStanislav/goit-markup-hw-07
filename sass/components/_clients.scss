@@ -1,0 +1,57 @@
+/* постоянные клиенты */
+.clients {
+  margin: 0;
+  padding: 0;
+  padding-top: 94px;
+}
+.clients__h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+.clients__ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+}
+.clients__list + .clients__list {
+  margin-left: 30px;
+}
+.clients__list {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-around;
+  width: 170px;
+  height: 92px;
+  margin-bottom: 94px;
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+}
+.clients__list:hover,
+.clients__list:focus,
+.clients__list:hover svg,
+.clients__list:focus svg {
+  fill: #2196f3;
+  border-color: #2196f3;
+}
+.clients__icon {
+  margin: 0;
+  padding: 0;
+  width: 106px;
+  height: 60px;
+  fill: #afb1b8;
+}
